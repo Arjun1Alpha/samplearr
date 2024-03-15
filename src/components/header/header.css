@@ -1,0 +1,27 @@
+header {
+  height: 30px;
+  padding: 30px;
+  position: sticky;
+  top: 30px;
+  background-color: black;
+  opacity: 0.4;
+  width: 90%;
+  border-radius: 50px;
+  margin: 0 auto;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+.headerVisible {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.5s;
+  transform: translateY(0%);
+}
+
+.hideHeader {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.5s;
+  transform: translateY(-200%);
+}/*# sourceMappingURL=header.css.map */

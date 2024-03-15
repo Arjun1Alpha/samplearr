@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    backdrop-filter: blur(10px);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    backdrop-filter: blur(10px);
+    background-color: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #888;
+    backdrop-filter: blur(10px);
+
+}
+
+body {
+    background-color: #222526;
+}
+
+.main {
+    height: 1000vh;
+}
