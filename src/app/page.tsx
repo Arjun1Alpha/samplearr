@@ -1,4 +1,5 @@
 import Header from "@/components/header/Header";
+import Oppertunities from "@/components/sections/Oppertunities";
 
 
 export default function Home() {
@@ -6,8 +7,10 @@ export default function Home() {
     <>
       <Header />
       <div className="main">
-
+        <div className="filter"></div>
+        <div></div>
       </div>
+      <Oppertunities />
     </>
   );
 }

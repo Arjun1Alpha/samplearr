@@ -31,6 +31,20 @@ body {
     background-color: #222526;
 }
 
-.main {
-    height: 1000vh;
+// .main {
+//     height: 1000vh;
+// }
+
+section{
+    background: linear-gradient(to top, #ffffff,#222526); ;
+    height: 100vh;
+    margin: 0 auto;
+    margin-top: 65px;
+}
+.innerSections{
+    background-color: #fff;
+    width: 95%;
+    height: 100vh;
+    border-radius: 60px;
+    margin: 0 auto;
 }
